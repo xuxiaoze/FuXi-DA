@@ -9,7 +9,7 @@ by Xiaoze Xu, Xiuyu Sun, Wei Han, Xiaohui Zhong, Lei Chen, Zhiqiu Gao & Hao Li
 
 # Installation
 The downloaded files shall be organized as the following hierarchy:
-
+```text 
 |-- code_inference
 |   |-- inference.py
 |   |-- read_data.py
@@ -37,3 +37,4 @@ The downloaded files shall be organized as the following hierarchy:
             |-- std_agri_gridmean.npy
             |-- time
             `-- x
+```

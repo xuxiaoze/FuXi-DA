@@ -1,11 +1,12 @@
 # FuXi-DA
-This is the official repository for the FuXi-DA paper.
+This repository provides an example codebase for running the FuXi-DA model.
 
-FuXi-DA: a generalized deep learning data assimilation framework for assimilating satellite observations
+Published in npj Climate and Atmospheric Science: FuXi-DA: a generalized deep learning data assimilation framework for assimilating satellite observations
+by Xiaoze Xu, Xiuyu Sun, Wei Han, Xiaohui Zhong, Lei Chen, Zhiqiu Gao & Hao Li.
 
-Published on npj Climate and Atmospheric Science: FuXi-DA: a generalized deep learning data assimilation framework for assimilating satellite observations
+For ERA5 data preprocessing and FuXi model forecasting, please refer to the original FuXi repository at https://github.com/tpys/FuXi.
 
-by Xiaoze Xu, Xiuyu Sun, Wei Han, Xiaohui Zhong, Lei Chen, Zhiqiu Gao & Hao Li
+Note: The background and analysis fields used in this example have been standardized and interpolated to 720 latitude points. The reverse standardization and restoration to the original 721-point latitude grid can be found in the result_plot.py script.
 
 # Installation
 The downloaded files shall be organized as the following hierarchy:
@@ -38,3 +39,8 @@ The downloaded files shall be organized as the following hierarchy:
             |-- time
             `-- x
 ```
+This code requires the following Python libraries:
+torch, xarray, dask, netCDF4, zarr
+
+# Demo
+bash run_inference.sh

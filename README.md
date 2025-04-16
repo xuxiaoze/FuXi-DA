@@ -39,8 +39,8 @@ The downloaded files shall be organized as the following hierarchy:
             |-- time
             `-- x
 ```
-The assimilation result is saved as:```text output/2023081012.nc ```. 
-For reference, the corresponding baseline assimilation result is provided in:```text output/2023081012_refer.nc ```. 
+The assimilation result is saved as:``` output/2023081012.nc ```. 
+For reference, the corresponding baseline assimilation result is provided in:``` output/2023081012_refer.nc ```. 
 
 This code requires the following Python libraries:
 ```text 

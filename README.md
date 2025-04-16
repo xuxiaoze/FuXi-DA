@@ -40,7 +40,11 @@ The downloaded files shall be organized as the following hierarchy:
             `-- x
 ```
 This code requires the following Python libraries:
+```text 
 torch, xarray, dask, netCDF4, zarr
+```
 
 # Demo
+```text 
 bash run_inference.sh
+```

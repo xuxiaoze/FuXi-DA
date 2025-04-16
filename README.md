@@ -20,7 +20,7 @@ The downloaded files shall be organized as the following hierarchy:
 |   |-- assimilation_v6.py
 |   `-- final_cast_10_assim_model.pth
 |-- output
-|   `-- 2023081012.nc
+|   `-- 2023081012_refer.nc
 `-- test_data
     |-- bg
     |   |-- 2023081012.nc
@@ -39,6 +39,9 @@ The downloaded files shall be organized as the following hierarchy:
             |-- time
             `-- x
 ```
+The assimilation result is saved as:```text output/2023081012.nc ```. 
+For reference, the corresponding baseline assimilation result is provided in:```text output/2023081012_refer.nc ```. 
+
 This code requires the following Python libraries:
 ```text 
 torch, xarray, dask, netCDF4, zarr

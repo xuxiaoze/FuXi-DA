@@ -9,6 +9,7 @@ by Xiaoze Xu, Xiuyu Sun, Wei Han, Xiaohui Zhong, Lei Chen, Zhiqiu Gao & Hao Li
 
 # Installation
 The downloaded files shall be organized as the following hierarchy:
+
 |-- code_inference
 |   |-- inference.py
 |   |-- read_data.py

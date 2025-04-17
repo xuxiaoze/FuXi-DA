@@ -6,7 +6,7 @@ by Xiaoze Xu, Xiuyu Sun, Wei Han, Xiaohui Zhong, Lei Chen, Zhiqiu Gao & Hao Li.
 
 For ERA5 data preprocessing and FuXi model forecasting, please refer to the original FuXi repository at https://github.com/tpys/FuXi.
 
-Note: The background and analysis fields used in this example have been standardized and interpolated to 720 latitude points. The reverse standardization and restoration to the original 721-point latitude grid can be found in the result_plot.py script.
+Note: The background and analysis fields used in this example have been standardized and interpolated to 720 latitude points. The reverse standardization and restoration to the original 721-point latitude grid can be found in the ``` result_plot.py ``` script.
 
 # Installation
 The downloaded files shall be organized as the following hierarchy:
